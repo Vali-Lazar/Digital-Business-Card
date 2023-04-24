@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: rgb(35, 38, 46);
+}
+
+#container {
+  margin: 100px auto auto auto;
+  background-color: rgb(27, 29, 35);
+  width: 380px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+img {
+  width: 380px;
+  height: 380px;
+  border-radius: 10px;
+}
+
+.name {
+  margin-bottom: 1px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.job-info {
+  margin: 0;
+  color: rgb(244, 181, 10);
+}
+
+.small {
+  margin-top: 10px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+/* LINKS */
+
+a {
+  text-decoration: none;
+}
+
+.email {
+  margin: 0;
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.fa-envelope {
+  margin-right: 4px;
+}
+
+.linkedin {
+  background-color: rgb(59, 59, 238);
+  color: white;
+  padding:10px 30px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.fa-linkedin {
+  background-color: white;
+  color: rgb(59, 59, 238);
+  padding: 1px;
+  margin-right: 2px;
+}
+
+#about {
+  margin-top: 20px;
+  text-align: left;
+  padding: 40px;
+}
+
+#about > h3 {
+  margin: 0;
+}
+
+#about > p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(198, 193, 193);
+}
+
+
+/* FOOTER */
+footer {
+  background-color: black;
+  padding: 20px;
+}
+
+footer .fa {
+  padding: 0 10px;
+  font-size: 30px;
+  color: white;
+}
